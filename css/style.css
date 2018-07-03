@@ -1,0 +1,148 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF3E0;
+}
+
+.container {
+  width: 100%;
+}
+
+.content {
+  margin: 0 auto;
+  width: 360px;
+  overflow: scroll;
+}
+
+/* Top Navigation, Folder Name, Search and Menu Icons */
+.nav-bar {
+  width: 100%;
+  height: 56px;
+  background-color: #ffff;
+  display: flex;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.left-arrow {
+  height: 24px;
+  width: 24px;
+  margin: auto 31px auto 20px;
+}
+
+.folder-name {
+  margin: auto 2px auto 0px;
+}
+
+h6 {
+font-family: 'Work Sans', sans-serif;
+font-size: 24px;
+letter-spacing: 0.25px;
+font-weight: 400;
+}
+
+.search-icon {
+  height: 24px;
+  width: 24px;
+  margin: auto 25px auto auto;
+}
+
+.vertical-nav-icon {
+  height: 24px;
+  width: 24px;
+  margin: auto 12px auto 0px;
+}
+
+/* List of Files  */
+.file-list {
+  width: 100%;
+  background-color: #ffff;
+  display: block;
+  height: 457px;
+  /* overflow: hidden; */
+}
+
+/* Individual File Cards  */
+
+.file-content {
+  width: 100%;
+  background-color: #ffff;
+  display: flex;
+  height: 72px;
+  cursor: pointer;
+}
+
+.file-img {
+  height: 40px;
+  width: 40px;
+  margin: 16px 0px 16px 20px;
+  background-color: rgba(0, 0, 0, 0.30);
+  display: flex;
+}
+
+/* .file-img i {
+  margin: 0;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.54);
+}
+*/
+
+.file-text {
+  display: block;
+  margin: auto 16px;
+}
+
+.subtitle-1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16.26px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  color: #000000;
+  margin-bottom: 6px;
+}
+
+.body-2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14.79px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.60);
+}
+
+.horizontal-nav-icon {
+  height: 24px;
+  width: 24px;
+  margin: 24px 20px 24px auto;
+  float: right;
+  color: rgba(0, 0, 0, 0.60);
+}
+
+/* Create Button on the Bottom */
+
+.fav {
+  /* background-color: #ffff; */
+  position: absolute;
+  top: 457px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.fav-circle {
+  display: flex;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 56px;
+  width: 56px;
+  background-color: orange;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px -1px rgba(0, 0, 0, 0.14);
+}
+
+.plus-icon {
+  margin: auto;
+}
