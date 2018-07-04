@@ -8,6 +8,7 @@ body {
 
 .container {
   width: 100%;
+  height: 100%;
 }
 
 .content {
@@ -15,6 +16,30 @@ body {
   width: 360px;
   overflow: scroll;
 }
+
+/* Sidebar, Desktop Only */
+.side-bar {
+  display: none;
+  /* width: 24%; */
+  height: 100%;
+  background-color: #fafafa;
+  width: 300px;
+}
+
+.logo {
+  width: 106px;
+  height: 38px;
+  background-color: gray;
+  margin: 15px auto 26px 20px;
+}
+
+.new-button {
+  height: 48px;
+  width: 112px;
+  background-color: gray;
+  margin: 0px auto 28px 20px;
+}
+
 
 /* Top Navigation, Folder Name, Search and Menu Icons */
 .nav-bar {
@@ -145,4 +170,29 @@ font-weight: 400;
 
 .plus-icon {
   margin: auto;
+}
+
+/* Responsive Design */
+
+@media screen and (min-width: 992px) {
+  .container {
+    display: flex;
+  }
+
+  .content {
+    width: 76%;
+  }
+
+  .side-bar {
+    display: block;
+  }
+
+  .file-list {
+    height: 100%;
+  }
+
+  .fav {
+    display: none;
+  }
+
 }
