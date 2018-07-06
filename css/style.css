@@ -172,6 +172,56 @@ font-weight: 400;
   margin: auto;
 }
 
+/* Create Modal */
+
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 305px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.modal-content {
+  margin: 0 auto;
+  width: 280px;
+  background-color: #ffff;
+  /* padding: 16px; */
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px -1px rgba(0, 0, 0, 0.14);
+
+}
+
+.modal-button {
+  display: flex;
+  height: 48px;
+  width: 280px;
+  margin-left: 16px;
+}
+
+.modal-icon {
+  margin-right: 20px;
+}
+
+.modal-title {
+  padding-top: 4px;
+}
+
+.body-1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.close {
+  margin: 0px 10px 0px auto;
+  float: right;
+}
+
+
 /* Responsive Design */
 
 @media screen and (min-width: 992px) {
