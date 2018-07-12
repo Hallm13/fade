@@ -4,6 +4,7 @@
 
 body {
   background-color: #FFF3E0;
+  font-size: 10px;
 }
 
 .container {
@@ -13,17 +14,20 @@ body {
 
 .content {
   margin: 0 auto;
-  width: 360px;
+  width: 80%;
   overflow: scroll;
 }
 
 /* Sidebar, Desktop Only */
 .side-bar {
-  display: none;
-  /* width: 24%; */
+  /* display: none; */
   height: 100%;
   background-color: #fafafa;
-  width: 300px;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  /* position: fixed; */
+  /* overflow: auto; */
 }
 
 .logo {
@@ -34,12 +38,27 @@ body {
 }
 
 .new-button {
+  display: flex;
+  font-family: 'Work Sans', sans-serif;
   height: 48px;
-  width: 112px;
-  background-color: gray;
+  width: 146px;
+  background-color: #FB8C00;
   margin: 0px auto 28px 20px;
+  padding: 5px;
+  border-radius: 24px;
+  box-shadow: 2px 8px 3px -6px rgba(0, 0, 0, 0.14), 0px 2px 3px 1px rgba(0, 0, 0, 0.14);
 }
 
+.button {
+  font-size: 2em;
+  margin: auto auto auto 0px;
+}
+
+.plus {
+  font-weight: 300;
+  font-size: 3em;
+  margin: auto 10px auto auto;
+}
 
 /* Top Navigation, Folder Name, Search and Menu Icons */
 .nav-bar {
