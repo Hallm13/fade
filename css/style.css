@@ -5,6 +5,7 @@
 body {
   background-color: #FFF3E0;
   font-size: 10px;
+  font-family: 'Work San', sans-serif;
 }
 
 .container {
@@ -18,6 +19,101 @@ body {
   overflow: scroll;
 }
 
+/* Homepage Navbar */
+.home-container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.home-nav {
+  display: flex;
+  margin: 0% 5% 0% 5%;
+}
+
+.home-nav-link, .home-sign {
+  margin: 3% 5% 0% 0%;
+  font-size: 2em;
+}
+
+.home-nav-link {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.logomark {
+  width: 113px;
+  height: 40px;
+  background-color: gray;
+  margin: 2% auto 0% 0%;
+}
+
+/* Homepage Hero */
+.hero {
+  background-color: #ffff;
+  padding: 10% 5% 10% 5%;
+  display: flex;
+}
+
+.hero-content {
+  width: 40%;
+}
+
+.overline {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  margin: 0% auto 2% 0%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+h4 {
+  font-size: 5em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 59px;
+}
+
+.logo-sunset {
+  border-radius: 50%;
+  width: 50em;
+  height: 50em;
+  background:
+  linear-gradient(
+    45deg,
+    #ff9800 0%, #ff9800 26%,
+    white 26%, white 26.2%,
+    #ffa726 26.2%, #ffa726 38.2%,
+    white 38.2%, white 38.4%,
+    #ffb74d 38.4%, #ffb74d 50.4%,
+    white 50.4%, white 50.6%,
+    #ffcc80 50.6%, #ffcc80 62.8%,
+    white 62.8%, white 63%,
+    #ffe0b2 63%, #ffe0b2 75%,
+    white 75%, white 75.2%,
+    #fff3e0 75.2%);
+  margin: 0% 0% 0% auto;
+}
+
+.hero-text {
+  margin: 10% 0% 8% 0%;
+}
+
+.start-button {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5em;
+    background-color: #FB8C00;
+    padding: 1em 2em;
+    border-radius: 24px;
+    box-shadow: 2px 8px 3px -6px rgba(0, 0, 0, 0.14), 0px 2px 3px 1px rgba(0, 0, 0, 0.14);
+}
+
+.body-1 {
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+}
 /* Sidebar, Desktop Only */
 .side-bar {
   /* display: none; */
@@ -25,7 +121,7 @@ body {
   background-color: #fafafa;
   width: 20%;
   margin: 0;
-  padding: 0;
+  padding: 0px 0px 1000px 0px;
   /* position: fixed; */
   /* overflow: auto; */
 }
@@ -40,24 +136,12 @@ body {
 .new-button {
   display: flex;
   font-family: 'Work Sans', sans-serif;
-  height: 48px;
-  width: 146px;
+  font-size: 1.5em;
   background-color: #FB8C00;
-  margin: 0px auto 28px 20px;
-  padding: 5px;
+  margin: 2% 0% 2% 0%;
+  padding: 10px 30px;
   border-radius: 24px;
   box-shadow: 2px 8px 3px -6px rgba(0, 0, 0, 0.14), 0px 2px 3px 1px rgba(0, 0, 0, 0.14);
-}
-
-.button {
-  font-size: 2em;
-  margin: auto auto auto 0px;
-}
-
-.plus {
-  font-weight: 300;
-  font-size: 3em;
-  margin: auto 10px auto auto;
 }
 
 /* Top Navigation, Folder Name, Search and Menu Icons */
