@@ -90,16 +90,11 @@ h4 {
   linear-gradient(
     45deg,
     #ff9800 0%, #ff9800 26%,
-    white 26%, white 26.2%,
-    #ffa726 26.2%, #ffa726 38.2%,
-    white 38.2%, white 38.4%,
-    #ffb74d 38.4%, #ffb74d 50.4%,
-    white 50.4%, white 50.6%,
-    #ffcc80 50.6%, #ffcc80 62.8%,
-    white 62.8%, white 63%,
-    #ffe0b2 63%, #ffe0b2 75%,
-    white 75%, white 75.2%,
-    #fff3e0 75.2%);
+    #ffa726 26%, #ffa726 38%,
+    #ffb74d 38%, #ffb74d 50%,
+    #ffcc80 50%, #ffcc80 62%,
+    #ffe0b2 62%, #ffe0b2 74%,
+    #fff3e0 74%);
   margin: 0% 0% 0% auto;
 }
 
