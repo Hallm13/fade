@@ -5,7 +5,7 @@
 body {
   background-color: #FFF3E0;
   font-size: 7px;
-  font-family: 'Work San', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .container {
@@ -165,12 +165,13 @@ h3 {
 }
 .plan-detail {
   display: flex;
-  margin: 10% 0% 10% 25%;
+  margin: 10% 0% 10% 27%;
 }
 
 .plan-title {
   margin-bottom: 20%;
 }
+
 
 .plan-container .light {
   background-color: #FFF3E0;
@@ -180,6 +181,48 @@ h3 {
 .plan-container .start-button {
   margin-top: 10%;
   }
+
+.home-footer {
+  border-top: 6px solid #fb8c00;
+}
+
+.footer-content {
+  display: block;
+  margin: 0% 5%;
+  padding: 10% 0% 10% 0%;
+}
+
+.footer-content .logomark {
+  margin: 10% auto 10% 0%;
+}
+
+.contact {
+  margin: 10% auto;
+}
+
+.body-1-light {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #9E9E9E;
+}
+
+.contact .body-1-light {
+  margin: 8% 0% 15% 0%;
+}
+
+.social {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.5em;
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.5px;
+  margin: 5% 0% 0% 0%;
+}
+
+.social-link {
+  margin: 5% auto;
+}
 
 /* Sidebar, Desktop Only */
 .side-bar {
@@ -443,6 +486,30 @@ font-weight: 400;
     margin: 10% auto;
   }
 
+/* Footer */
+  .footer-content {
+    display: flex;
+    padding: 5% 0% 1% 0%;
+  }
+
+  .footer-content .logomark {
+    margin-top: 5%;
+  }
+
+  .contact {
+    margin-top: 5%;
+  }
+  .social {
+    display: contents;
+  }
+
+  .social-link {
+    margin-left: 5%;
+  }
+
+
+
+/* Side Navigation */
   .side-bar {
     display: block;
   }
