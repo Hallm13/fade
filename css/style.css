@@ -53,7 +53,7 @@ body {
 }
 
 /* Homepage Hero */
-.hero {
+.hero, .pricing {
   background-color: #ffff;
   padding: 10% 5% 10% 5%;
   display: block;
@@ -71,7 +71,7 @@ body {
   color: rgba(0, 0, 0, 0.6);
 }
 
-h4 {
+h1 {
   font-size: 5em;
   font-weight: 300;
   letter-spacing: 2px;
@@ -118,6 +118,69 @@ h4 {
   line-height: 28px;
   color: rgba(0, 0, 0, 0.6);
 }
+
+/* Mockups */
+.how {
+  display: block;
+  margin: 13% 0%;
+  padding: 10% 5%;
+  background-color: #ffff
+}
+
+.feature-container {
+  display: block;
+}
+
+.mockup img {
+  width: 90%;
+  margin: 10% 0%
+}
+
+.feature-container ul {
+  margin-bottom: 20%;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+}
+
+/* Pricing */
+.plan {
+  border: 2px solid #E65100;
+  padding: 8% 3% 20% 3%;
+  border-radius: 3%;
+  width: 90%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 7.5em;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.plan-detail {
+  display: flex;
+  margin: 10% 0% 10% 25%;
+}
+
+.plan-title {
+  margin-bottom: 20%;
+}
+
+.plan-container .light {
+  background-color: #FFF3E0;
+  border: 2px solid #FB8C00;
+}
+
+.plan-container .start-button {
+  margin-top: 10%;
+  }
+
 /* Sidebar, Desktop Only */
 .side-bar {
   /* display: none; */
@@ -330,6 +393,10 @@ font-weight: 400;
 
 
 /* Responsive Design */
+/* Tablets */
+
+
+/* Desktop */
 
 @media screen and (min-width: 700px) {
 
@@ -353,8 +420,27 @@ font-weight: 400;
     width: 40%;
   }
 
-  h4 {
-    line-height:
+  /* Mockups */
+  .feature-container {
+    display: flex;
+  }
+
+  .feature-container .feature-expire {
+    margin: 0% auto;
+  }
+
+  .mockup img {
+    width: auto;
+  }
+
+/* Pricing */
+  .plan-container {
+    display: flex;
+  }
+
+  .plan {
+    width: 30%;
+    margin: 10% auto;
   }
 
   .side-bar {
