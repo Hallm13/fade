@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #FFF3E0;
+  background-color: #FFFF;
   font-size: 7px;
   font-family: 'Work Sans', sans-serif;
 }
@@ -33,12 +33,12 @@ body {
 
 .home-nav-link {
   margin: 3% 5% 0% 0%;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .home-sign {
   margin-top: 3%;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .home-nav-link {
@@ -48,31 +48,35 @@ body {
 .logomark {
   width: 113px;
   height: 40px;
-  background-color: gray;
   margin: 2% auto 0% 0%;
+  background-image:url(images/fadelogomark.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* Homepage Hero */
 .hero, .pricing {
-  background-color: #ffff;
+  background-color: #FFF3E0;
   padding: 10% 5% 10% 5%;
   display: block;
 }
 
 .hero-content {
+  padding: 10% 10% 0% 0%;
   width: 80%;
+  background-color: #FFF3E0;
 }
 
 .overline {
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1vh, 1vmin;
   letter-spacing: 2px;
   margin: 0% auto 2% 0%;
   color: rgba(0, 0, 0, 0.6);
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 5vw;
   font-weight: 300;
   letter-spacing: 2px;
   line-height: 1.2em;
@@ -83,10 +87,10 @@ h1 {
 }
 
 .logo-sunset {
-  border-radius: 50%;
-  width: 50em;
-  height: 50em;
-  background:
+  /* border-radius: 50%; */
+  /* width: 100%; */
+  height: 80em;
+  /* background: */
   linear-gradient(
     45deg,
     #ff9800 0%, #ff9800 26%,
@@ -95,7 +99,10 @@ h1 {
     #ffcc80 50%, #ffcc80 62%,
     #ffe0b2 62%, #ffe0b2 74%,
     #fff3e0 74%);
-  margin: 0% 0% 0% auto;
+  margin: 20% 0% 0% auto;
+  background-image:url(images/catcoffee.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .hero-text {
@@ -124,11 +131,13 @@ h1 {
   display: block;
   margin: 13% 0%;
   padding: 10% 5%;
-  background-color: #ffff
+  background-color: #FFF3E0;
 }
 
 .feature-container {
-  display: block;
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .mockup img {
@@ -137,8 +146,17 @@ h1 {
 }
 
 .feature-container ul {
-  margin-bottom: 20%;
+  display: grid;
 }
+
+.feature-container li:nth-child(2) {
+  grid-row: 1;
+}
+
+.feature-container li:nth-child(3) {
+  grid-row: 2;
+}
+
 
 h2 {
   font-size: 3em;
@@ -457,6 +475,10 @@ font-weight: 400;
 
   .hero {
     display: flex;
+    background-image:url(images/catcoffee.png);
+    background-size: 65vh, contain;
+    background-repeat: no-repeat;
+    background-position: top right;
   }
 
   .hero-content {
@@ -464,12 +486,16 @@ font-weight: 400;
   }
 
   /* Mockups */
-  .feature-container {
-    display: flex;
-  }
-
   .feature-container .feature-expire {
     margin: 0% auto;
+  }
+
+  .feature-container li:nth-child(2) {
+    grid-row: 2;
+  }
+
+  .feature-container li:nth-child(3) {
+    grid-row: 3;
   }
 
   .mockup img {
