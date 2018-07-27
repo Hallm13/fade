@@ -180,14 +180,13 @@ h3 {
   padding-top: 1.2vh;
 }
 
-.hero-text p {
-
-}
-
 .plan-title {
   margin-bottom: 20%;
 }
 
+.pricing-content {
+  background-color: #FFF3E0;
+}
 
 .plan-container .light {
   background-color: #FFF3E0;
