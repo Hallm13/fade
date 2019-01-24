@@ -7,20 +7,28 @@ body {
   font-family: 'Rubik';
 }
 
+/* Top of every screen */
+nav {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
+  position: sticky;
+  top: 0px;
+}
+
 .nav-top-bar {
   height: 6px;
   background-color: #FF9800;
 }
 
+/* Encloses all cards */
 .group {
   display: flex;
   align-items: center;
-  margin: 12px 18px;
+  padding: 12px 18px;
 }
 
 .fade-logomark {
   max-width: 99px;
-  margin: 0 auto 0 0;
 }
 
 .group-item-logomark {
@@ -43,6 +51,123 @@ body {
   max-width: 40px;
 }
 
-h2 {
+/* Typography */
+h1 {
+  font-size: 1.29em;
+}
 
+h3 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Big orange button at the bottom of the app */
+.action-button {
+  display: flex;
+  position: sticky;
+  bottom: 0px;
+}
+
+.action-button img {
+  margin: 0 auto;
+}
+
+/* File list */
+
+.card-image {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
+  background-image:url(images/card-image10.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12%;
+}
+
+.group-inside {
+  margin-top: 12px;
+}
+
+.group-item-detail {
+  margin: 8px 0px;
+}
+
+.progress-bar-full {
+ border-radius: 25px;
+ height: 6px;
+ width: 53px;
+ background: linear-gradient(
+   45deg,
+   #ff9800 0%, #ff9800 26%,
+   #ffa726 26%, #ffa726 38%,
+   #ffb74d 38%, #ffb74d 50%,
+   #ffcc80 50%, #ffcc80 62%,
+   #ffe0b2 62%, #ffe0b2 74%,
+   #fff3e0 74%);
+}
+
+.progress-bar-nearlyfull {
+ border-radius: 25px;
+ height: 6px;
+ width: 53px;
+ background: linear-gradient(
+   45deg,
+   #ff9800 0%, #ff9800 26%,
+   #ffa726 26%, #ffa726 38%,
+   #ffb74d 38%, #ffb74d 50%,
+   #ffcc80 50%, #ffcc80 62%,
+   #ffe0b2 62%, #ffe0b2 74%,
+   #D8D8D8 74%);
+}
+
+.progress-bar-middlefull {
+ border-radius: 25px;
+ height: 6px;
+ width: 53px;
+ background: linear-gradient(
+   45deg,
+   #ff9800 0%, #ff9800 26%,
+   #ffa726 26%, #ffa726 38%,
+   #ffb74d 38%, #ffb74d 50%,
+   #ffcc80 50%, #ffcc80 62%,
+   #D8D8D8 62%, #D8D8D8 74%);
+}
+
+.progress-bar-middle {
+ border-radius: 25px;
+ height: 6px;
+ width: 53px;
+ background: linear-gradient(
+   45deg,
+   #ff9800 0%, #ff9800 26%,
+   #ffa726 26%, #ffa726 38%,
+   #ffb74d 38%, #ffb74d 50%,
+   #D8D8D8 50%, #D8D8D8 74%);
+}
+
+.progress-bar-middleempty {
+ border-radius: 25px;
+ height: 6px;
+ width: 53px;
+ background: linear-gradient(
+   45deg,
+   #ff9800 0%, #ff9800 26%,
+   #ffa726 26%, #ffa726 38%,
+   #D8D8D8 38%, #D8D8D8 74%);
+}
+
+.progress-bar-nearlyempty {
+ border-radius: 25px;
+ height: 6px;
+ width: 53px;
+ background: linear-gradient(
+   45deg,
+   #ff9800 0%, #ff9800 26%,
+   #D8D8D8 26%, #D8D8D8 74%);
+}
+
+.progress-bar-empty {
+ border-radius: 25px;
+ height: 6px;
+ width: 53px;
+ background: #D8D8D8;
 }
